@@ -12,7 +12,8 @@ import json
 # Add the parent directory to path to import graph module
 sys.path.append(os.path.dirname(__file__))
 
-from graph import create_gpt_model_graph, GraphAnalyzer
+from gpt_model_graph import create_gpt_model_graph
+from graph_analyzer import GraphAnalyzer
 
 
 def test_gpt_model_graph():

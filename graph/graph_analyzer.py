@@ -14,7 +14,7 @@ from dataclasses import dataclass
 import numpy as np
 import networkx as nx
 
-from .gpt_model_graph import GPTModelGraph, LayerNode, LayerType
+from gpt_model_graph import GPTModelGraph, LayerNode, LayerType
 
 
 @dataclass
@@ -522,7 +522,7 @@ class GraphAnalyzer:
 
 if __name__ == "__main__":
     # Example usage
-    from .gpt_model_graph import create_gpt_model_graph
+    from gpt_model_graph import create_gpt_model_graph
     
     # Create GPT model graph
     graph = create_gpt_model_graph("gpt-1.5b")

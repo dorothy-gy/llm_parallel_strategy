@@ -1,0 +1,42 @@
+=== Graph Partitioning Analysis Report ===
+
+=== Model Statistics ===
+Total Layers: 51
+Transformer Layers: 48
+Total Parameters: 1,635,537,600
+Total Memory: 6239.08 MB
+Total Compute: 3281231.00 GFLOPs
+
+=== Partitioning Strategies (2 stages) ===
+
+UNIFORM:
+  Balance Score: 0.0000
+  Max Memory Usage: 3119.54 MB
+  Total Communication Cost: 6.25 MB
+    Stage 0: Layers 0-24, Memory: 3119.54 MB, Params: 817,768,000
+    Stage 1: Layers 25-50, Memory: 3119.54 MB, Params: 817,769,600
+
+BALANCED_MEMORY:
+  Balance Score: 0.0000
+  Max Memory Usage: 3119.54 MB
+  Total Communication Cost: 6.25 MB
+    Stage 0: Layers 0-24, Memory: 3119.54 MB, Params: 817,768,000
+    Stage 1: Layers 25-50, Memory: 3119.54 MB, Params: 817,769,600
+
+BALANCED_COMPUTE:
+  Balance Score: 0.0000
+  Max Memory Usage: 3119.54 MB
+  Total Communication Cost: 6.25 MB
+    Stage 0: Layers 0-24, Memory: 3119.54 MB, Params: 817,768,000
+    Stage 1: Layers 25-50, Memory: 3119.54 MB, Params: 817,769,600
+
+BALANCED_PARAMETERS:
+  Balance Score: 0.0000
+  Max Memory Usage: 3119.54 MB
+  Total Communication Cost: 6.25 MB
+    Stage 0: Layers 0-24, Memory: 3119.54 MB, Params: 817,768,000
+    Stage 1: Layers 25-50, Memory: 3119.54 MB, Params: 817,769,600
+
+=== Recommendations ===
+Recommended Strategy: uniform
+Reason: Best balance between memory distribution and communication cost

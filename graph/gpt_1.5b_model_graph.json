@@ -1,0 +1,1335 @@
+{
+  "config": {
+    "n_layer": 48,
+    "n_embd": 1600,
+    "n_head": 32,
+    "head_dim": 50,
+    "vocab_size": 50257,
+    "n_positions": 1024
+  },
+  "nodes": {
+    "0": {
+      "layer_id": 0,
+      "layer_type": "embedding",
+      "name": "word_embeddings",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": null,
+      "intermediate_size": null,
+      "vocab_size": 50257,
+      "parameter_count": 80411200,
+      "memory_usage": 306.744384765625,
+      "compute_flops": 3276800,
+      "tensor_parallel_dim": 50257,
+      "supports_pipeline_parallel": true
+    },
+    "1": {
+      "layer_id": 1,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_0",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "2": {
+      "layer_id": 2,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_1",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "3": {
+      "layer_id": 3,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_2",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "4": {
+      "layer_id": 4,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_3",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "5": {
+      "layer_id": 5,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_4",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "6": {
+      "layer_id": 6,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_5",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "7": {
+      "layer_id": 7,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_6",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "8": {
+      "layer_id": 8,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_7",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "9": {
+      "layer_id": 9,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_8",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "10": {
+      "layer_id": 10,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_9",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "11": {
+      "layer_id": 11,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_10",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "12": {
+      "layer_id": 12,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_11",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "13": {
+      "layer_id": 13,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_12",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "14": {
+      "layer_id": 14,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_13",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "15": {
+      "layer_id": 15,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_14",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "16": {
+      "layer_id": 16,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_15",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "17": {
+      "layer_id": 17,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_16",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "18": {
+      "layer_id": 18,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_17",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "19": {
+      "layer_id": 19,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_18",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "20": {
+      "layer_id": 20,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_19",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "21": {
+      "layer_id": 21,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_20",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "22": {
+      "layer_id": 22,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_21",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "23": {
+      "layer_id": 23,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_22",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "24": {
+      "layer_id": 24,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_23",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "25": {
+      "layer_id": 25,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_24",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "26": {
+      "layer_id": 26,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_25",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "27": {
+      "layer_id": 27,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_26",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "28": {
+      "layer_id": 28,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_27",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "29": {
+      "layer_id": 29,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_28",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "30": {
+      "layer_id": 30,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_29",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "31": {
+      "layer_id": 31,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_30",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "32": {
+      "layer_id": 32,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_31",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "33": {
+      "layer_id": 33,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_32",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "34": {
+      "layer_id": 34,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_33",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "35": {
+      "layer_id": 35,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_34",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "36": {
+      "layer_id": 36,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_35",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "37": {
+      "layer_id": 37,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_36",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "38": {
+      "layer_id": 38,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_37",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "39": {
+      "layer_id": 39,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_38",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "40": {
+      "layer_id": 40,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_39",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "41": {
+      "layer_id": 41,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_40",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "42": {
+      "layer_id": 42,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_41",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "43": {
+      "layer_id": 43,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_42",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "44": {
+      "layer_id": 44,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_43",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "45": {
+      "layer_id": 45,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_44",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "46": {
+      "layer_id": 46,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_45",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "47": {
+      "layer_id": 47,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_46",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "48": {
+      "layer_id": 48,
+      "layer_type": "transformer_block",
+      "name": "transformer_block_47",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": 32,
+      "intermediate_size": 6400,
+      "vocab_size": null,
+      "parameter_count": 30723200,
+      "memory_usage": 117.19970703125,
+      "compute_flops": 90.5969664,
+      "tensor_parallel_dim": 32,
+      "supports_pipeline_parallel": true
+    },
+    "49": {
+      "layer_id": 49,
+      "layer_type": "layer_norm",
+      "name": "final_layer_norm",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": null,
+      "intermediate_size": null,
+      "vocab_size": null,
+      "parameter_count": 1600,
+      "memory_usage": 0.006103515625,
+      "compute_flops": 0.008192,
+      "tensor_parallel_dim": null,
+      "supports_pipeline_parallel": true
+    },
+    "50": {
+      "layer_id": 50,
+      "layer_type": "output_head",
+      "name": "lm_head",
+      "hidden_size": 1600,
+      "seq_length": 1024,
+      "num_heads": null,
+      "intermediate_size": null,
+      "vocab_size": 50257,
+      "parameter_count": 80411200,
+      "memory_usage": 306.744384765625,
+      "compute_flops": 82.3410688,
+      "tensor_parallel_dim": 50257,
+      "supports_pipeline_parallel": true
+    }
+  },
+  "edges": [
+    {
+      "source_id": 0,
+      "target_id": 1,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 1,
+      "target_id": 2,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 2,
+      "target_id": 3,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 3,
+      "target_id": 4,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 4,
+      "target_id": 5,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 5,
+      "target_id": 6,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 6,
+      "target_id": 7,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 7,
+      "target_id": 8,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 8,
+      "target_id": 9,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 9,
+      "target_id": 10,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 10,
+      "target_id": 11,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 11,
+      "target_id": 12,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 12,
+      "target_id": 13,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 13,
+      "target_id": 14,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 14,
+      "target_id": 15,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 15,
+      "target_id": 16,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 16,
+      "target_id": 17,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 17,
+      "target_id": 18,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 18,
+      "target_id": 19,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 19,
+      "target_id": 20,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 20,
+      "target_id": 21,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 21,
+      "target_id": 22,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 22,
+      "target_id": 23,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 23,
+      "target_id": 24,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 24,
+      "target_id": 25,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 25,
+      "target_id": 26,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 26,
+      "target_id": 27,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 27,
+      "target_id": 28,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 28,
+      "target_id": 29,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 29,
+      "target_id": 30,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 30,
+      "target_id": 31,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 31,
+      "target_id": 32,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 32,
+      "target_id": 33,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 33,
+      "target_id": 34,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 34,
+      "target_id": 35,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 35,
+      "target_id": 36,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 36,
+      "target_id": 37,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 37,
+      "target_id": 38,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 38,
+      "target_id": 39,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 39,
+      "target_id": 40,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 40,
+      "target_id": 41,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 41,
+      "target_id": 42,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 42,
+      "target_id": 43,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 43,
+      "target_id": 44,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 44,
+      "target_id": 45,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 45,
+      "target_id": 46,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 46,
+      "target_id": 47,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 47,
+      "target_id": 48,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 48,
+      "target_id": 49,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    },
+    {
+      "source_id": 49,
+      "target_id": 50,
+      "data_shape": [
+        1,
+        1024,
+        1600
+      ],
+      "data_type": "float32",
+      "communication_cost": 6.25
+    }
+  ],
+  "stats": {
+    "total_layers": 51,
+    "total_parameters": 1635537600,
+    "total_memory_mb": 6239.080810546875,
+    "total_compute_gflops": 3281231.003648
+  }
+}

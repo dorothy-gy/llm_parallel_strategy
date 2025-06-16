@@ -1,0 +1,29 @@
+{
+  "model_name": "gpt-1.5b",
+  "total_stages": 2,
+  "strategy": "uniform",
+  "balance_score": 9.782716092861454e-07,
+  "max_memory_per_stage": 3119.54345703125,
+  "stages": [
+    {
+      "stage_id": 0,
+      "layer_range": [
+        0,
+        24
+      ],
+      "memory_mb": 3119.537353515625,
+      "parameters": 817768000,
+      "compute_gflops": 3278974.3271935955
+    },
+    {
+      "stage_id": 1,
+      "layer_range": [
+        25,
+        50
+      ],
+      "memory_mb": 3119.54345703125,
+      "parameters": 817769600,
+      "compute_gflops": 2256.6764543999993
+    }
+  ]
+}
